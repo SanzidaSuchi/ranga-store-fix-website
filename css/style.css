@@ -2,34 +2,7 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-  /* search field  start  */
-.search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
-  /* search field end  */
-
-  /* search box start  */
-.search-box {
-  border: 1px solid rgb(192,192,192);
-  width: 281px;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 50px;
-  border-right: none;
-}
-.search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
-  margin-left: 18px;
-}
-  /* search box end  */
+ 
       /* all product item  */
 #all-products {
   display: grid;

@@ -18,22 +18,20 @@
 
 <body>
     <!-- Heading  start  -->
-  <header class="text-center text-warning bg-dark">
-    <h1>Welcome to SuchiShop</h1>
+   <header class="text-center mt-4 mb-4">
+    <h1 class="fw-bold">Welcome to SuchiShop</h1>
   </header>
-
     <!-- Heading End   -->
   <main class="main">
         <!-- search as you wish -->
-    <div class="search-field">
-      <div class="search-box">
-        <input id="input-field" class="search-field" type="text"/>
-        <button type="button" class="btn btn-dark search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search 
-        </button>
-      </div>
-    </div>
+        <div class="contain  d-flex justify-content-center mt-2">
+
+          <div class="input-group mb-3 w-50">
+              <input type="text" class="form-control" placeholder="Search for product" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button onclick="loadProducts()" class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+            </div>
+  
+        </div>
     <!-- search end   -->
         <!-- product added  -->
     <div class="row">
